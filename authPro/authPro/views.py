@@ -32,7 +32,7 @@ def login(request):
 @api_view(["GET"])
 def sample_api(request):
     data = {'Company': 'Marolix',
-            'Employee name': 'Praveen',
+            'Employee Name': 'Praveen',
             'Employee ID' : "MT-0862',
            'Domine': 'Python',
            }
