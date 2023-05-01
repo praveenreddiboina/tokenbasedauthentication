@@ -31,7 +31,11 @@ def login(request):
 @csrf_exempt
 @api_view(["GET"])
 def sample_api(request):
-    data = {'sample_data': 123}
+    data = {'Company': 'Marolix',
+            'Employee name': 'Praveen',
+            'Employee ID' : "MT-0862',
+           'Domine': 'Python',
+           }
     return Response(data, status=HTTP_200_OK)
 
 
