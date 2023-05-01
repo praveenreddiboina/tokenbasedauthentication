@@ -33,7 +33,7 @@ def login(request):
 def sample_api(request):
     data = {'Company': 'Marolix',
             'Employee Name': 'Praveen',
-            'Employee ID' : "MT-0862',
+            'Employee ID' : 'MT-0862',
            'Domine': 'Python',
            }
     return Response(data, status=HTTP_200_OK)
